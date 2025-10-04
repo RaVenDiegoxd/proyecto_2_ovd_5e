@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Diego Orzuna Vazquez 5E</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="icono.ico">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">LOGO</a>
+
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mapa">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acercade.html">Acerca de</a>
+                    </li>
+                </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+                Café de Olla
+            </h1>
+            <p>
+                El mejor café de la ciudad
+            </p>
+            <a href="acercade.html" class="btn btn-primary">
+            Conoce más
+            </a>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Planta Creciendo" class="cover cover-small" style="background-image: url(carta_1.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cultivo ecológico responsable</h5>
+                            <p class="card-text">
+                                Trabajamos con caficultores responsables que usan tratamientos ecológicos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Tractor Trabajando" class="cover cover-small" style="background-image: url(carta_2.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Comercio justo</h5>
+                            <p class="card-text">
+                                Adquirir café en Café de Olla significa que tu dinero va directamente y de manera responsable a los caficultores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Taza de café" class="cover cover-small" style="background-image: url(carta_3.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Pasión por el café</h5>
+                            <p class="card-text">
+                                Nos apasiona el café, por lo que siempre trabajamos para servirte café de calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-6 col-lg-5">
+                    <img 
+                        src="doodle.svg" 
+                        alt="Una persona derramando café"
+                        class="img-fluid"
+                    />
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <h3>
+                        ¡Inicia tu día con una taza de café!
+                    </h3>
+                    <p>
+                        Ordena tu bolsa de café a domicilio o busca tu Café de Olla más cercano.
+                    </p>
+                    <a href="#mapa">Ir al Mapa</a>
+                </div>
+            </div>
+
+            <form action="" class="mt-4">
+                <label for="email">Correo Electrónico</label>
+                <div class="d-flex">
+                    <div class="flex-fill mr-2">
+                        <input type="email" id="email" class="form-control" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div> 
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <!-- Tira de productos -->
+        <div class="container mt-5 mb-5" id="menu">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div title="Taza de Espresso" 
+                        class="cover cover-small" 
+                        style="background-image: url(rueda_1.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <span class="badge badge-info">$2USD</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="Taza de Frappe" 
+                        class="cover cover-small" 
+                        style="background-image: url(rueda_4.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frappé</h5>
+                            <span class="badge badge-info">$3USD</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="Taza de Capuccino" 
+                        class="cover cover-small" 
+                        style="background-image: url(rueda_2.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Capuccino</h5>
+                            <span class="badge badge-info">$2.5USD</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="Taza de Americano" 
+                        class="cover cover-small" 
+                        style="background-image: url(rueda_3.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <span class="badge badge-info">$2USD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section>
+        <div class="container mt-5 mb-5" id="mapa">
+            <h4>
+                Aquí nos vemos:
+            </h4>
+            <p>
+                Calle 3 Ote. 1, Centro, 74200 Atlixco, Pue.
+            </p>
+            <div class="responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d722.4057524858079!2d-98.43505152399034!3d18.90782674110435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb4797ef4e6d9%3A0xe50aa0b71c650e78!2sPARISINA%20ATLIXCO!5e0!3m2!1ses-419!2smx!4v1759539522295!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
